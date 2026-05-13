@@ -3,9 +3,115 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>From</title>
+  <title>Student Registration Form</title>
 </head>
 <body>
+
+<div class="container">
+<h1>Student Registration Form</h1>
+<form action="">
+<div class="firstName">
+  <label for="fName">First Name</label>
+  <input type="text" name="fName" id="fName" placeholder="Enter your first name">
+
+</div>
+<div class="lasttName">
+  <label for="lName">Last Name</label>
+  <input type="text" name="lName" id="lName" placeholder="Enter your last name">
+  
+</div>
+<div class="email">
+  <label for="email">Email</label>
+  <input type="email" name="email" id="email" placeholder="Enter email">
+</div>
+<div class="password">
+  <label for="password">Password</label>
+  <input type="password" name="password" id="password" placeholder="Enter password">
+  
+</div>
+<div class="phoneNumber">
+  <label for="phoneNumber">Phone Number</label>
+  <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="03xx-xxxxxxx">
+  
+</div>
+<div class="DOB">
+  <label for="DOB">Date of Brith</label>
+  <input type="date" name="DOB" id="DOB" placeholder="mm/dd/yyyy">
+  
+</div>
+<div class="age">
+  <label for="age">Age</label>
+  <input type="number" name="age" id="age" >
+</div>
+<div class="favortieColor">
+  <label for="favortieColor">Favorite Color</label>
+  <input type="color" name="favortieColor" id="favortieColor" >
+  
+</div>
+<div class="Cv">
+  <label for="CV">Upload CV</label>
+  <input type="file" name="Cv" id="Cv" >
+  
+</div>
+<div class="Skill">
+  <label for="skillLevel">Skill Level</label>
+  <input type="range" min="0" max="100">
+  
+</div>
+<fieldset>
+  <legend>Gender</legend>
+  <div class="radio-group">
+    <label for=""><input type="radio" name="gender">Male</label>
+    <label for=""><input type="radio" name="gender">Female</label>
+    <label for=""><input type="radio" name="gender">Other</label>
+  </div>
+</fieldset>
+<fieldset>
+  <legend>Hobbies</legend>
+  <div class="checkbox-group">
+    <label for=""><input type="checkbox" name="hobbies">Coding</label>
+    <label for=""><input type="checkbox" name="hobbies">Crochet</label>
+    <label for=""><input type="checkbox" name="hobbies">Cooking</label>
+    <label for=""><input type="checkbox" name="hobbies">Learn new things</label>
+  </div>
+</fieldset>
+
+<div class="city">
+  <label for="">Select City</label>
+  <select name="" id="">
+     <option selected>Choose City</option>
+          <option>Islamabad</option>
+          <option>Lahore</option>
+          <option>Karachi</option>
+          <option>Peshawar</option>
+        </select>
+ 
+</div>
+
+<div>
+  <label for="">Search Course</label>
+  <input type="search" placeholder="Search here">
+
+</div>
+<div>
+  <label for="">Website URL</label>
+  <input type="url" placeholder="https://example.com">
+</div>
+<div>
+  <label for="">Preferred Time</label>
+  <input type="time">
+</div>
+<div>
+  <label for="">Message/Address</label>
+<textarea rows="5" placeholder="Write something here..."></textarea>
+</div>
+<div class="button">
+  <button type="submit">Submit</button>
+  <button type="reset">Reset</button>
+</div>
+
+</form>
+</div>
   
 </body>
 </html>
