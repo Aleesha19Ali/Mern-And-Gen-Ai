@@ -16,7 +16,7 @@
   <input type="text" name="fName" id="fName" placeholder="Enter your first name">
 
 </div>
-<div class="lasttName">
+<div class="lastName">
   <label for="lName">Last Name</label>
   <input type="text" name="lName" id="lName" placeholder="Enter your last name">
   
@@ -36,7 +36,7 @@
   
 </div>
 <div class="DOB">
-  <label for="DOB">Date of Brith</label>
+  <label for="DOB">Date of Birth</label>
   <input type="date" name="DOB" id="DOB" placeholder="mm/dd/yyyy">
   
 </div>
@@ -44,42 +44,39 @@
   <label for="age">Age</label>
   <input type="number" name="age" id="age" >
 </div>
-<div class="favortieColor">
-  <label for="favortieColor">Favorite Color</label>
-  <input type="color" name="favortieColor" id="favortieColor" >
-  
-</div>
-<div class="Cv">
+
+<div class="full">
   <label for="CV">Upload CV</label>
   <input type="file" name="Cv" id="Cv" >
   
 </div>
-<div class="Skill">
+<div class="full">
   <label for="skillLevel">Skill Level</label>
   <input type="range" min="0" max="100">
   
 </div>
-<fieldset>
+<fieldset class="full">
   <legend>Gender</legend>
   <div class="radio-group">
-    <label for=""><input type="radio" name="gender">Male</label>
-    <label for=""><input type="radio" name="gender">Female</label>
-    <label for=""><input type="radio" name="gender">Other</label>
+    <label for="male">
+      <input type="radio" name="gender" id="male">Male</label>
+    <label for="female"><input type="radio" name="gender" id="female">Female</label>
+    <label for="other"><input type="radio" name="gender" id="other">Other</label>
   </div>
 </fieldset>
-<fieldset>
+<fieldset class="full">
   <legend>Hobbies</legend>
   <div class="checkbox-group">
-    <label for=""><input type="checkbox" name="hobbies">Coding</label>
-    <label for=""><input type="checkbox" name="hobbies">Crochet</label>
-    <label for=""><input type="checkbox" name="hobbies">Cooking</label>
-    <label for=""><input type="checkbox" name="hobbies">Learn new things</label>
+    <label for="coding"><input type="checkbox" name="hobbies" id="coding">Coding</label>
+    <label for="crochet"><input type="checkbox" name="hobbies" id="crochet">Crochet</label>
+    <label for="Cooking"><input type="checkbox" name="hobbies" id="Cooking">Cooking</label>
+    <label for="learn"><input type="checkbox" name="hobbies" id="learn">Learn new things</label>
   </div>
 </fieldset>
 
 <div class="city">
-  <label for="">Select City</label>
-  <select name="" id="">
+  <label for="city">Select City</label>
+  <select >
      <option selected>Choose City</option>
           <option>Islamabad</option>
           <option>Lahore</option>
@@ -106,7 +103,7 @@
   <label for="">Message/Address</label>
 <textarea rows="5" placeholder="Write something here..."></textarea>
 </div>
-<div class="button">
+<div class="button full">
   <button type="submit">Submit</button>
   <button type="reset">Reset</button>
 </div>
